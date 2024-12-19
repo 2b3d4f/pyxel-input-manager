@@ -2,16 +2,6 @@
 
 A simple input manager for Pyxel.
 
-## Table of Contents
-
-- [Pyxel Input Manager](#pyxel-input-manager)
-  - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Features](#features)
-  - [Contributing](#contributing)
-  - [License](#license)
-
 ## Installation
 
 You can install the Pyxel Input Manager via pip:
