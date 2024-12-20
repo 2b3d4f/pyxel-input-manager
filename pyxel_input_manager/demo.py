@@ -129,20 +129,6 @@ class InputDemo:
         # Draw player (8x8 square)
         pyxel.rect(int(self.player_x), int(self.player_y), 8, 8, 11)
 
-        # Draw velocity as line
-        pyxel.line(int(self.player_x + 3), int(self.player_y + 3),
-                   int(self.player_x + 3 + self.velocity_x * 8),
-                   int(self.player_y + 3 + self.velocity_y * 8), 8)
-        pyxel.line(int(self.player_x + 4), int(self.player_y + 3),
-                   int(self.player_x + 4 + self.velocity_x * 8),
-                   int(self.player_y + 3 + self.velocity_y * 8), 8)
-
-        pyxel.line(int(self.player_x + 3), int(self.player_y + 4),
-                   int(self.player_x + 3 + self.velocity_x * 8),
-                   int(self.player_y + 4 + self.velocity_y * 8), 8)
-        pyxel.line(int(self.player_x + 4), int(self.player_y + 4),
-                   int(self.player_x + 4 + self.velocity_x * 8),
-                   int(self.player_y + 4 + self.velocity_y * 8), 8)
 
 def main():
     """Entry point for CLI."""
