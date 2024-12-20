@@ -123,6 +123,9 @@ class InputDemo:
         pyxel.text(4, 12, "D-Pad/L-Stick: Move", 7)
         pyxel.text(4, 20, "Q: Quit", 7)
 
+        velocity_str = f"Vel: ({self.velocity_x:.2f}, {self.velocity_y:.2f})"
+        pyxel.text(4, 32, velocity_str, 7)
+
         # Draw player (8x8 square)
         pyxel.rect(int(self.player_x), int(self.player_y), 8, 8, 11)
 
