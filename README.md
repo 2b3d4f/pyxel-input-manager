@@ -59,9 +59,9 @@ def update():
 - Easy integration with Pyxel
 - Lightweight and simple to use
 
-## Contributing
+<!-- ## Contributing
 
-If you would like to contribute to this project, please feel free to submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
+If you would like to contribute to this project, please feel free to submit a pull request. For major changes, please open an issue first to discuss what you would like to change. -->
 
 ## License
 
