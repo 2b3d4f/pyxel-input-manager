@@ -2,6 +2,12 @@
 
 A simple input manager for Pyxel.
 
+## Features
+
+- Bind keys to actions
+- Easy integration with Pyxel
+- Lightweight and simple to use
+
 ## Installation
 
 You can install the Pyxel Input Manager via pip:
@@ -52,12 +58,6 @@ def update():
     move_value = input_event.get_analog_value("move")
     player.move(move_value)
 ```
-
-## Features
-
-- Bind keys to actions
-- Easy integration with Pyxel
-- Lightweight and simple to use
 
 <!-- ## Contributing
 
