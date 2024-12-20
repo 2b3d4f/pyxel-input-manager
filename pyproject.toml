@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 requires-python = ">=3.11"
 name = "pyxel-input-manager"
-version = "0.0.3"
+version = "0.0.4"
 authors = [
     { name = "2b3d4f" }
 ]
@@ -31,4 +31,4 @@ repository = "https://github.com/2b3d4f/pyxel-input-manager"
 issues = "https://github.com/2b3d4f/pyxel-input-manager/issues"
 
 [project.scripts]
-pyxel-input-manager = "pyxel_input_manager.cli:main"
+pyxel-input-manager = "pyxel_input_manager.__main__:main"
