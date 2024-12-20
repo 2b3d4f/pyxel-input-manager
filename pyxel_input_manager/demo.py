@@ -118,6 +118,8 @@ class InputDemo:
         """Draw game state."""
         pyxel.cls(1)
 
+        pyxel.rect(int(self.player_x) + 2, int(self.player_y) + 2, 8, 8, 5)
+
         # Draw instructions
         pyxel.text(4, 4, "WASD/Arrows: Move", 7)
         pyxel.text(4, 12, "D-Pad/L-Stick: Move", 7)
