@@ -7,10 +7,10 @@ requires-python = ">=3.11"
 name = "pyxel-input-manager"
 version = "0.0.4"
 authors = [
-    { name = "2b3d4f" }
+    { name = "Tomonobu Terakubo" }
 ]
 maintainers = [
-    { name = "2b3d4f" }
+    { name = "Tomonobu Terakubo" }
 ]
 description = "A simple input manager for Pyxel"
 license = { text = "MIT License" }
