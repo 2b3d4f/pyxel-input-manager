@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 requires-python = ">=3.11"
 name = "pyxel-input-manager"
-version = "0.0.4"
+version = "0.0.5"
 authors = [
     { name = "Tomonobu Terakubo" }
 ]
@@ -19,7 +19,6 @@ classifiers = [
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.11",
 ]
 readme = "README.md"
 dependencies = [
