@@ -36,7 +36,7 @@ To use the Pyxel Input Manager in your Pyxel project, you can import and initial
 
 ```python
 import pyxel
-from input_manager import InputMap, InputEvent, AnalogBinding
+from pyxel_input_manager import InputMap, InputEvent, AnalogBinding
 
 # Create input map
 input_map = InputMap({
